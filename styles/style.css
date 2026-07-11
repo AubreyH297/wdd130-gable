@@ -107,3 +107,101 @@ footer nav {
     border-color: #1F6FEB;
     width: 95%;
 }
+/* Famous Cyberattacks Page */
+
+.attack-intro {
+    max-width: 900px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.attack-intro p {
+    line-height: 1.7;
+}
+
+.attack-feature {
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.attack-feature img {
+    display: block;
+    width: 85%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+    margin: 25px auto;
+    border: 4px solid #2EA44F;
+}
+
+.attack-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.attack-card {
+    background-color: #F4F4F4;
+    border: 3px solid #1F6FEB;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.attack-card img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin: 0;
+    border: none;
+    border-bottom: 3px solid #2EA44F;
+}
+
+.attack-card h2 {
+    margin: 20px 15px 10px;
+}
+
+.attack-card p {
+    color: #0B1F3A;
+    line-height: 1.6;
+    margin: 15px 20px;
+}
+
+.attack-conclusion {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #2EA44F;
+    text-align: center;
+}
+
+.attack-conclusion p {
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .attack-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .attack-feature img {
+        width: 100%;
+    }
+}
