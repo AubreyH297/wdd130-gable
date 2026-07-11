@@ -71,7 +71,7 @@ main p {
     margin: 40px;
 }
 
-#img {
+.image-gallery {
     display: flex;
     flex-direction: row;
     justify-content: center;
